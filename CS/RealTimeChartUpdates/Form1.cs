@@ -33,7 +33,7 @@ namespace RealTimeChartUpdates {
             diagram.DependentAxesYRange = DefaultBoolean.True;
             diagram.AxisY.WholeRange.AlwaysShowZeroLevel = false;
 
-            Timer timer = new Timer();
+            System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
             timer.Interval = 100;
             timer.Start();
             timer.Tick += Timer_Tick;
